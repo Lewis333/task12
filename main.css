@@ -1,0 +1,274 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+.topNavBar{
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navBar{
+    margin-top: 34px;
+}
+.navBar ul>li {
+    float: right;
+    font-size:12px;
+    list-style: none;
+    margin-right: 38px;
+}
+.navBar ul>li>a{
+    color: #b7b7b7;
+    border-bottom: 2px solid transparent;
+}
+.navBar ul>li>a:hover{
+    border-bottom-color: #dc6465;
+}
+.logo{
+    float: left;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+.RS{
+    margin-left: 19px;
+    margin-right: 9px;
+    color: #e6686a;
+    float: left;
+    font-size: 22px;
+}
+.card{
+    font-size: 22px;
+    color: #9A9DA2;
+}
+a{
+    text-decoration-line: none;
+}
+.banner{
+    height: 515px;
+    background-image: url(./rs-cover.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.banner .mask{
+    background-color: rgba(0,0,0,0.8);
+    height: 515px;
+}
+.userCard{
+    
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.userCard .text{
+    float: left;
+    width: 470px;
+}
+.userCard .picture{
+    float: left;
+    margin-right: 70px;
+}
+.userCard .picAndText{
+    padding: 50px;
+}
+.userCard .welcome {
+    background: #e6686a;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+.userCard .welcome .triangle {
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #e6686a;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+  }
+.userCard dl dt,
+    .userCard dl dd{
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px 0;
+    }
+    .userCard dl dt{
+    width: 30%;
+    font-weight: bold;
+    }
+    .userCard dl dd{
+    width: 50%;
+    color: #9da0a7;
+    }
+.userCard > footer.media{
+    text-align: center;
+    background: #E6686A;
+}
+.userCard > footer.media > a {
+    border-radius: 50%;
+    padding: 5px 0;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    padding: 5px,0;
+    margin: 16px;
+}
+.userCard svg{  
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+.userCard > footer.media > a:hover{
+    background-color: #CF5D5F;
+}
+.download{
+    border-radius: 2px;
+    margin:34px auto;
+    padding: 17px;
+    vertical-align: middle;
+    text-align: center;
+    width: 165px;
+    background: #EFEFEF;
+    border: 1px solid #CDCFD1;
+}
+.download > a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d4451;
+}
+.download:hover{
+    box-shadow: 0 4px 13px 0px rgba(0,0,0,0.2);
+}
+.description{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 940px;
+    font-family: kai;
+    line-height: 1.8;
+    font-size: 18px;
+}
+h2{
+    font-size: 34px;
+    color: #3d4451;
+    text-align: center;
+}
+section.skills{
+    max-width: 940px;
+    border: 1px solid #D3D3D3;
+    margin: 28px auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 13px 0px rgba(0,0,0,0.2)
+}
+section.skills  h3{
+    font-size: 14px;
+    line-height: 1.1;
+}
+section.skills .progressBar{
+    height: 5px;
+    background: #FAE1E1;
+    border-radius: 2px;
+}
+section.skills .progressBar > .progress{
+    height: 100%;
+    background: #E6686A;
+    width: 70%;
+    border-radius: 2px;
+}
+ol{
+    list-style: none;
+    padding: 10px 0 42px 0;
+    margin: 0;
+}
+section.skills >ol>li{
+    float: left;
+    width: 43%;
+    margin: 8px 0;
+}
+section.skills >ol>li:nth-child(odd){
+    margin-left: 50px;
+    float: left;
+}
+section.skills >ol>li:nth-child(even){
+    margin-right: 50px;
+    float: right;
+}
+.skill{
+    margin-top: 55px;
+}
+.collection{
+    margin-top: 56px;
+}
+section.portfolio{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 940px;
+    margin-bottom: 100px;
+}
+section.portfolio > nav > ol{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+section.portfolio > nav > ol > li {
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+section.portfolio > nav > ol >li:first-child{
+    margin-left: 0px;
+}
+section.portfolio > nav .bar{
+    height: 5px;
+    background: white;
+    width: 234px;
+    margin: 5px auto;
+    border-radius: 2px;
+}
+section.portfolio > nav .bar-inner{
+    height: 100%;
+    background: #E6686A;
+    transition: all 0.3s;
+    border-radius: 2px;
+}
+section.portfolio > nav .bar.stat-1 .bar-inner{
+    float: left;
+    width: 32px;
+}
+section.portfolio > nav .bar.stat-2 .bar-inner{
+    float: left;
+    margin-left: 72px;
+    width: 32px;
+}
+section.portfolio > nav .bar.stat-3 .bar-inner{
+    float: left;
+    margin-left: 143px;
+    width: 91px;
+}
+section.portfolio .jobs{
+    margin: 0;
+    padding: 0;
+    margin-top: 28px;
+}
+section.portfolio .jobs .big{
+    float: left;
+    margin-left: 0;
+}
+section.portfolio .jobs .small1{
+    float: right;
+    margin-top: 0;
+}
+section.portfolio .jobs .small2{
+    float: right;
+    margin-top:22px;
+    
+}
