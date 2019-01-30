@@ -58,8 +58,10 @@ a{
     background-color: rgba(0,0,0,0.8);
     height: 515px;
 }
+.container{
+    margin: -340px auto 0 auto;
+}
 .userCard{
-    
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
